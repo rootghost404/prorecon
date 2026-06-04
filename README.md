@@ -2,9 +2,28 @@
 
 An automated web reconnaissance pipeline tailored for bug bounty hunters and security professionals. This wrapper coordinates multiple modern OSINT and active scanning tools into a structured framework.
 
-## Project Structure
-```text
-pro-recon-framework/
-├── prorecon.sh         # Core automation script
-├── requirements.txt    # Tool dependency list
-└── README.md           # Setup and deployment guide
+```bash
+# Install tool dependencies via Go
+go install -v [github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest](https://github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest)
+go install -v [github.com/projectdiscovery/alterx/cmd/alterx@latest](https://github.com/projectdiscovery/alterx/cmd/alterx@latest)
+go install -v [github.com/projectdiscovery/httpx/cmd/httpx@latest](https://github.com/projectdiscovery/httpx/cmd/httpx@latest)
+go install -v [github.com/lc/gau/v2/cmd/gau@latest](https://github.com/lc/gau/v2/cmd/gau@latest)
+go install -v [github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest](https://github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest)
+
+## Installation & Setup 
+
+1. Clone the repository:
+```bash
+git clone https://github.com/rootghost404/prorecon.git
+
+2. go to directory
+```bash
+cd prorecon
+
+3. permission this file
+```bash
+chmod +x prorecon.sh
+
+4. run commnad
+```bash
+./prorecon.sh target.com
