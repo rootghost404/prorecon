@@ -18,12 +18,12 @@ fi
 # Function to check if a tool is installed
 check_requirement() {
     if ! command -v "$1" &> /dev/null; then
-        echo -e "${RED}[!] Error: $1 is not installed. Please check requirements.txt${NC}"
+        echo -e "${RED}[!] Error: $1 is not installed. Please install $1 this tool first${NC}"
         exit 1
     fi
 }
 
-echo -e "${BLUE}[*] Checking tool prerequisites...${NC}"
+echo -e "${BLUE}[*] Checking tool installed...${NC}"
 check_requirement "subfinder"
 check_requirement "alterx"
 check_requirement "httpx"
