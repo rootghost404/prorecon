@@ -4,12 +4,21 @@ An automated web reconnaissance pipeline tailored for bug bounty hunters and sec
 
 # Install tool dependencies via Go
 ```bash
-go install -v [github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest](https://github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest)
-go install -v [github.com/projectdiscovery/alterx/cmd/alterx@latest](https://github.com/projectdiscovery/alterx/cmd/alterx@latest)
-go install -v [github.com/projectdiscovery/httpx/cmd/httpx@latest](https://github.com/projectdiscovery/httpx/cmd/httpx@latest)
-go install -v [github.com/lc/gau/v2/cmd/gau@latest](https://github.com/lc/gau/v2/cmd/gau@latest)
-go install -v [github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest](https://github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest)
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+```
 
+```bash
+go install -v github.com/projectdiscovery/alterx/cmd/alterx@latest
+```
+```bash
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+```
+```bash
+go install -v github.com/lc/gau/v2/cmd/gau@latest
+```
+
+```bash
+go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 ```
 
 ## Installation & Setup 
