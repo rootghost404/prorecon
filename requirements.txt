@@ -1,0 +1,9 @@
+# Core Language Requirement
+golang-go (Go Version 1.20+)
+
+# Recon Tools Required (Must be in system PATH)
+subfinder   -> https://github.com/projectdiscovery/subfinder
+alterx      -> https://github.com/projectdiscovery/alterx
+httpx       -> https://github.com/projectdiscovery/httpx
+gau         -> https://github.com/lc/gau
+nuclei      -> https://github.com/projectdiscovery/nuclei
