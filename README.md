@@ -10,20 +10,22 @@ go install -v [github.com/projectdiscovery/httpx/cmd/httpx@latest](https://githu
 go install -v [github.com/lc/gau/v2/cmd/gau@latest](https://github.com/lc/gau/v2/cmd/gau@latest)
 go install -v [github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest](https://github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest)
 
+```
+
 ## Installation & Setup 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/rootghost404/prorecon.git
+git clone https://github.com/rootghost404/prorecon.git ```
 
 2. go to directory
 ```bash
-cd prorecon
+cd prorecon ```
 
 3. permission this file
 ```bash
-chmod +x prorecon.sh
+chmod +x prorecon.sh ```
 
 4. run commnad
 ```bash
-./prorecon.sh target.com
+./prorecon.sh target.com ```
