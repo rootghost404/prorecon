@@ -2,7 +2,7 @@
 
 An automated web reconnaissance pipeline tailored for bug bounty hunters and security professionals. This wrapper coordinates multiple modern OSINT and active scanning tools into a structured framework.
 
-# Install tool dependencies via Go
+# && Core Language Requirement && Install tool dependencies via Go
 ```bash
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 ```
@@ -21,7 +21,7 @@ go install -v github.com/lc/gau/v2/cmd/gau@latest
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 ```
 
-## Installation & Setup 
+## ProRecon Installation & Setup 
 
 1. Clone the repository:
 ```bash
